@@ -1,6 +1,6 @@
 import { resultsData } from "../data/data";
 import { iconMap } from "../data/data";
-import { SummaryItem } from "./SummaryItem";
+import SummaryItem from "./SummaryItem";
 
 function ResultSummary() {
   return (
@@ -20,3 +20,5 @@ function ResultSummary() {
     </div>
   );
 }
+
+export default ResultSummary;
