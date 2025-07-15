@@ -4,8 +4,8 @@ import SummaryItem from "./SummaryItem";
 
 function ResultSummary() {
   return (
-    <div>
-      <h2>Summary</h2>
+    <div className="space-y-4">
+      <h2 className="text-lg font-semibold">Summary</h2>
       {resultsData.map((item) => {
         const Icon = iconMap[item.category];
         return (
