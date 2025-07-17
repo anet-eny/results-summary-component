@@ -1,13 +1,13 @@
-import { FaBolt } from "react-icons/fa";
-import { MdMemory } from "react-icons/md";
+import { TiFlashOutline } from "react-icons/ti";
+import { TbBrain } from "react-icons/tb";
 import { RiChat3Line } from "react-icons/ri";
-import { IoEyeSharp } from "react-icons/io5";
+import { FiEye } from "react-icons/fi";
 
 export const iconMap = {
-  Reaction: FaBolt,
-  Memory: MdMemory,
+  Reaction: TiFlashOutline,
+  Memory: TbBrain,
   Verbal: RiChat3Line,
-  Visual: IoEyeSharp,
+  Visual: FiEye,
 };
 
 export const resultsData = [
