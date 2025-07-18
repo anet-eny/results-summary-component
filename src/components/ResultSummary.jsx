@@ -4,19 +4,24 @@ import SummaryItem from "./SummaryItem";
 
 function ResultSummary() {
   return (
-    <div className="space-y-4 p-6 md:w-1/2 ">
-      <h2 className="font-bold">Summary</h2>
-      {resultsData.map((item) => {
-        const Icon = iconMap[item.category];
-        return (
-          <SummaryItem
-            key={item.category}
-            category={item.category}
-            score={item.score}
-            Icon={Icon}
-          />
-        );
-      })}
+    <div className="p-6 md:w-1/2 ">
+      <h2 className="font-bold mb-8">Summary</h2>
+      <div className="space-y-4">
+        {resultsData.map((item) => {
+          const Icon = iconMap[item.category];
+          return (
+            <SummaryItem
+              key={item.category}
+              category={item.category}
+              score={item.score}
+              Icon={Icon}
+            />
+          );
+        })}
+      </div>
+      <button className="bg-gray-800 text-white w-full py-3 mt-8 rounded-full transition-colors">
+        Continue
+      </button>
     </div>
   );
 }
