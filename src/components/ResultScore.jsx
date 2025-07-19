@@ -2,7 +2,7 @@ function ResultScore() {
   return (
     <div className="bg-gradient-to-b from-violet-500 to-indigo-600 text-white flex flex-col items-center justify-center gap-4 p-6 md:w-1/2 rounded-b-2xl md:rounded-2xl">
       <h3 className="font-semibold text-2xl">Your result</h3>
-      <div className="bg-gradient-to-b from-violet-700 to-indigo-500 w-24 h-24 rounded-full flex flex-col items-center justify-center gap-1 ">
+      <div className="bg-gradient-to-b from-violet-700 to-indigo-500 w-[140px] h-[140px] md:w-[200px] md:h-[200px] rounded-full flex flex-col items-center justify-center gap-1 ">
         <h1 className="text-white font-bold text-7xl">76</h1>
         <span className="text-lg font-normal">of 100</span>
       </div>
