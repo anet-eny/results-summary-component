@@ -4,7 +4,7 @@ import SummaryItem from "./SummaryItem";
 
 function ResultSummary() {
   return (
-    <div className="p-6 md:w-1/2 ">
+    <div className="p-8 md:w-1/2 ">
       <h2 className="font-bold text-preset5-bold md:text-preset4 mb-8">
         Summary
       </h2>
