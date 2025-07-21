@@ -1,6 +1,6 @@
 function SummaryItem({ category, score, Icon }) {
   return (
-    <div className="flex items-center justify-between bg-gray-100 rounded-xl p-3">
+    <div className="flex items-center justify-between bg-gray-100 rounded-xl p-4">
       <div className="flex items-center gap-2">
         <Icon className="text-xl" />
         <span className="text-preset6 md:text-preset5">{category}</span>

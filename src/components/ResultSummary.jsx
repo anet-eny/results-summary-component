@@ -21,7 +21,7 @@ function ResultSummary() {
           );
         })}
       </div>
-      <button className="bg-gray-800 text-white text-preset5-bold w-full py-3 mt-8 rounded-full transition-colors">
+      <button className="bg-gray-800 text-white text-preset5-bold w-full py-4 mt-8 rounded-full transition-colors">
         Continue
       </button>
     </div>
