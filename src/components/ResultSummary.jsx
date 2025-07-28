@@ -17,6 +17,8 @@ function ResultSummary() {
               category={item.category}
               score={item.score}
               Icon={Icon}
+              textColor={item.textColor}
+              bgColor={item.bgColor}
             />
           );
         })}

@@ -1,9 +1,13 @@
-function SummaryItem({ category, score, Icon }) {
+function SummaryItem({ category, score, Icon, textColor, bgColor }) {
   return (
-    <div className="flex items-center justify-between bg-gray-100 rounded-xl p-4 ">
+    <div
+      className={`flex items-center justify-between ${bgColor} rounded-xl p-4`}
+    >
       <div className="flex items-center gap-2">
-        <Icon className="text-xl" />
-        <span className="text-preset6 md:text-preset5">{category}</span>
+        <Icon className={`text-xl ${textColor} `} />
+        <span className={`text-preset6 md:text-preset5 ${textColor}`}>
+          {category}
+        </span>
       </div>
       <div>
         <span className="text-navy-950 text-preset6-bold md:text-preset5-bold">
