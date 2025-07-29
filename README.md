@@ -18,3 +18,5 @@ A simple responsive summary card component built with React and Tailwind CSS. Th
 - **Debugging Tailwind Behavior**: Discovered how Tailwind treats default vs. custom colors and how using unique names (like `navy`) avoids clashes with existing Tailwind palettes.
 
 ## View Project
+
+https://anet-eny.github.io/results-summary-component/
